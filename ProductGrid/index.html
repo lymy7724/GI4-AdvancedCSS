@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Product Grid</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="ly.png" alt="ly's logo" class="logo">
+        <h1>Shop Ly's Favorite Snacks</h1>
+        <svg class="shop" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+        </svg>
+    </div>
+    <div class="collection">
+        <p style="color: grey;">Showing 1-8 of 8 results</p>
+        <div class="product" style="grid-column: 1/2;">
+            <a
+                href="https://www.walmart.com/ip/Slim-Jim-Original-Snack-Size-Stick-0-28-oz-Meat-Snacks-26-Count-Box/46064294?athbdg=L1600&from=/search">
+                <div class="imgcont"><img src="slimjim.webp" onmouseover="this.src='slimjim2.webp'"
+                        onmouseout="this.src='slimjim.webp'" alt="slim jims" class="images" style=""></div>
+                <div class="item-name">
+                    <p>26 Pack Slim Jim</p>
+                </div>
+            </a>
+            <div class="item-price">$6.48</div>
+            <details>
+                <summary>Product details</summary>
+                <p>Experience intense, smoky flavor with delicious Slim Jim Original Snack Size Sticks. Made with beef,
+                    pork and chicken, these meat sticks contain no artificial flavors or colors for full meaty flavor
+                    everyone can love.</p>
+            </details>
+            <button class="cart" id="jim" onclick="myFunction(this.id)">ADD TO CART</button>
+        </div>
+        <div class="product">
+            <a
+                href="https://www.walmart.com/ip/Jack-Link-s-Beef-Jerky-Sweet-Hot-Made-with-100-Beef-9g-of-Protein-per-Serving-5-oz-Resealable-Bag/5026027436?from=/search">
+                <div class="imgcont"><img src="beefjerky.webp" onmouseover="this.src='beefjerky2.webp'"
+                        onmouseout="this.src='beefjerky.webp'" alt="beef jerky" class="images"></div>
+                <div class="item-name">
+                    <p>Sweet and Hot Beef Jerky</p>
+                </div>
+            </a>
+            <div class="item-price">$6.28</div>
+            <details>
+                <summary>Product details</summary>
+                <p>We use a delicious mix of brown sugar and real fiery red chili peppers in our signature sweet and hot
+                    marinade – perfect for daredevils like you. We always make our beef jerky with 100% beef, a healthy
+                    kick of real and tasty spices, all slowly smoked to enhance the tender deliciousness of our beef.
+                </p>
+            </details>
+            <button class="cart" id="jerky" onclick="myFunction(this.id)">ADD TO CART</button>
+        </div>
+        <div class="product">
+            <a
+                href="https://www.walmart.com/ip/Cheetos-Crunchy-Flamin-Hot-Cheese-Puff-Chips-15oz-Bag/765041057?from=/search">
+                <div class="imgcont"><img src="hotcheetos.avif" onmouseover="this.src='hotcheetos2.webp'"
+                        onmouseout="this.src='hotcheetos.avif'" alt="hot cheetos" class="images"></div>
+                <div class="item-name">
+                    <p>Hot Cheetos Party Size</p>
+                </div>
+            </a>
+            <div class="item-price">$5.94</div>
+            <details>
+                <summary>Product details</summary>
+                <p>CHEETOS snacks are the much-loved cheesy treats that are fun for everyone! You just can't eat a
+                    CHEETOS snack chips without licking the signature “cheetle” off your fingertips. And wherever the
+                    CHEETOS brand and CHESTER CHEETAH go, cheesy smiles are sure to follow.
+                </p>
+            </details>
+            <button class="cart" id="hot" onclick="myFunction(this.id)">ADD TO CART</button>
+        </div>
+        <div class="product">
+            <a
+                href="https://www.walmart.com/ip/Funyuns-Onion-Flavored-Rings-Snack-Chips-6-oz-Bag/36915849?athbdg=L1200&from=/search">
+                <div class="imgcont"><img src="funyuns.webp" onmouseover="this.src='funyuns2.webp'"
+                        onmouseout="this.src='funyuns.webp'" alt="funyuns" class="images"></div>
+                <div class="item-name">
+                    <p>Funyuns Onion Flavored Rings</p>
+                </div>
+            </a>
+            <div class="item-price">$5.48</div>
+            <details>
+                <summary>Product details</summary>
+                <p>Funyuns Onion flavored rings give you a change of pace that's fun and deliciously different. Enjoy
+                    the zesty flavor of onion coupled with the crispy texture and shape of an onion ring. Funyuns have
+                    long been a regional favorite, and now they're available anytime you crave that onion flavor.
+                </p>
+            </details>
+            <button class="cart" id="onion" onclick="myFunction(this.id)">ADD TO CART</button>
+        </div>
+        <div class="product">
+            <a
+                href="https://www.walmart.com/ip/Funyuns-Flamin-Hot-Onion-Flavored-Rings-6-oz-Bag/37642796?athbdg=L1600&from=/search">
+                <div class="imgcont"><img src="hotfunyuns.webp" onmouseover="this.src='hotfunyuns2.webp'"
+                        onmouseout="this.src='hotfunyuns.webp'" alt="hot flavored funyuns" class="images"></div>
+                <div class="item-name">
+                    <p>Funyuns Flamin' Hot Onion Flavored Rings</p>
+                </div>
+            </a>
+            <div class="item-price">$5.48</div>
+            <details>
+                <summary>Product details</summary>
+                <p>These Funyuns Flamin Hot Onion Flavored Rings 6 Oz give you the delicious zest of the Funyuns that
+                    you enjoy with a spicy taste. They come with the crispy texture and shape of an onion ring with the
+                    sizzle that will set your mouth on fire.
+                </p>
+            </details>
+            <button class="cart" id="hotonion" onclick="myFunction(this.id)">ADD TO CART</button>
+        </div>
+        <div class="product">
+            <a href="https://www.walmart.com/ip/Ruffles-Sour-Cream-Onion-Potato-Chips-8-5-oz-Bag/24529906?from=/search">
+                <div class="imgcont"><img src="ruffles.webp" onmouseover="this.src='ruffles2.webp'"
+                        onmouseout="this.src='ruffles.webp'" alt="ruffles sour cream and onion" class="images"></div>
+                <div class="item-name">
+                    <p>Ruffles Sour Cream and Onion Potato Chips</p>
+                </div>
+            </a>
+            <div class="item-price">$9.25</div>
+            <details>
+                <summary>Product details</summary>
+                <p>Delicious sour cream and onion flavor
+                    Thick ridges help hold more great potato chip flavor and stand up to the thickest dips
+                    Large bag is perfect for sharing.
+                </p>
+            </details>
+            <button class="cart" id="ruffles" onclick="myFunction(this.id)">ADD TO CART</button>
+        </div>
+        <div class="product">
+            <a
+                href="https://www.walmart.com/ip/DeMet-s-Turtles-Original-Milk-Chocolate-Pecan-Bag-17-5oz/853311280?athbdg=L1600">
+                <div class="imgcont"><img src="turtles.webp" onmouseover="this.src='turtles2.webp'"
+                        onmouseout="this.src='turtles.webp'" alt="turtles chocolate" class="images"></div>
+                <div class="item-name">
+                    <p>Turtles, Original Milk Chocolate Pecan Bag </p>
+                </div>
+            </a>
+            <div class="item-price">$10.17</div>
+            <details>
+                <summary>Product details</summary>
+                <p>Make every day even sweeter with DeMet's Turtles Original Milk Chocolate Pecan Bag, 17.5oz. Every
+                    crave-worthy bite is perfectly balanced, with just the right amount of luscious milk chocolate,
+                    creamy caramel and crunchy pecans.
+                </p>
+            </details>
+            <button class="cart" id="turtles" onclick="myFunction(this.id)">ADD TO CART</button>
+        </div>
+        <div class="product">
+            <a
+                href="https://www.walmart.com/ip/Life-Savers-5-Flavors-Gummy-Candy-Family-Size-26-oz-Bag/360546882?athbdg=L1600&from=/search">
+                <div class="imgcont"><img src="lifesaviors.webp" onmouseover="this.src='lifesavers2.webp'"
+                        onmouseout="this.src='lifesaviors.webp'" alt="lifesavers gummy candy" class="images"></div>
+                <div class="item-name">
+                    <p>Life Savers 5 FLavors Gummy Bag </p>
+                </div>
+            </a>
+            <div class="item-price">$6.57</div>
+            <details>
+                <summary>Product details</summary>
+                <p>The classic combination of cherry, watermelon, green apple, strawberry, and orange flavors in LIFE
+                    SAVERS 5 Flavors Gummies recalls the treats we enjoyed growing up.
+                </p>
+            </details>
+            <button class="cart" id="life" onclick="myFunction(this.id)">ADD TO CART</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

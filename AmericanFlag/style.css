@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.red {
+    background-color: red;
+}
+
+.flag {
+    width: 60%;
+    height: 50%;
+    border-spacing: 0;
+    max-width: 600px;
+    min-width: 600px;
+}
+
+
+.white {
+    background-color: white;
+}
+
+.stars {
+    position: fixed;
+    height: 223px;
+    width: 300px;
+}
